@@ -3867,4 +3867,8 @@ body { background-color: #364f6b; color: #fff; }
 
 .navbar { border-bottom: #3fc1c9 3px solid; opacity: 0.8; }
 
-#home { background-image: url(../img/background.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; min-height: 700px; }
+#home { background-image: url(../img/background.jpg); background-repeat: no-repeat; background-size: cover; background-position: 50%; background-attachment: fixed; min-height: 700px; }
+
+#home .img-overlay { position: absolute; top: 0; left: 0; width: 100%; min-height: 700px; background: rgba(0, 0, 0, 0.8); }
+
+.home-inner { padding-top: 150px; }
