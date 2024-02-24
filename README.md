@@ -1,2 +1,2 @@
-# ProjectA
-ProjectA
+# SocialNetworkExercise
+Social Network Exercise #1
