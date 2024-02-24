@@ -3863,6 +3863,8 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + calc(var(--bs-border-
   .d-print-inline-flex { display: inline-flex !important; }
   .d-print-none { display: none !important; } }
 
+html { scroll-behavior: smooth; }
+
 body { background-color: #364f6b; color: #fff; }
 
 .navbar { border-bottom: #3fc1c9 3px solid; opacity: 0.8; }

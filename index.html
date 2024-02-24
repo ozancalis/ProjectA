@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Social Network</a>
+            <a href="#home" class="navbar-brand">Social Network</a>
 
             <button class="navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
                         <a href="#discover" class="nav-link">Discover</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">New Friends</a>
+                        <a href="#friends" class="nav-link">New Friends</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Join Us</a>
+                        <a href="#joinUs" class="nav-link">Join Us</a>
                     </li>
                 </ul>
             </div>
@@ -88,8 +88,8 @@
                     <div class="col-lg-4">
                         <div class="card bg-primary text-center">
                             <div class="card-body">
-                                <h3>Join Us</h3>
-                                <p>Please fill out the form</p>
+                                <h3 class="text-light">Join Us</h3>
+                                <p class="text-muted">Please fill out the form</p>
                                 <form>
                                     <div class="mb-3">
                                         <input type="text" class="form-control form-control-lg" placeholder="Username">
@@ -174,6 +174,93 @@
         </div>
     </section>
     
+    <section id="friends" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Friends</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nesciunt eveniet autem iste doloribus? Facilis, ipsa? Minus alias minima fugit quibusdam quos culpa placeat, nobis, similique sint laboriosam quis ipsum!</p>
+                    <a href="#" class="btn btn-outline-light btn-block">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="friends-bottom" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-2">
+                    <img src="img/enjoy.jpg" class="img-fluid mb-3 rounded-circle" alt="a person holding a phone in her left hand">
+                </div>
+                <div class="col-md-6 order-1">
+                    <h3>Find New Friends</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam deleniti odio quis sunt quam quasi quaerat reiciendis a temporibus ipsum molestias exercitationem, repellendus eius rem ea ullam ex commodi esse?</p>
+                    <div class="d-flex">
+                        <div class="p-3 align-self-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>                            </div>
+
+                        <div class="p-3 align-self-end">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dignissimos.
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-3 align-self-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>                            </div>
+
+                        <div class="p-3 align-self-end">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dignissimos.
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-3 align-self-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>                            </div>
+
+                        <div class="p-3 align-self-end">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dignissimos.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="joinUs" class="bg-primary py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="mb-3">Join Us</h1>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Enter Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Subject">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Enter Message"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-light">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark py-5 text-center">
+        Social Network
+    </footer>
+
     <script src="/node_modules/popper.js/dist/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
