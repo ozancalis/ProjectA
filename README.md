@@ -1,2 +1,2 @@
-# SocialNetworkExercise
-Social Network Exercise #1
+# SocialTemplateExercise
+Social Template Exercise #1
